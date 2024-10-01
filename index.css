@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  overflow: hidden;
+  background-image: url("media/play.svg");
+  background-size: 50px 50px;
+  background-color: black;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block; /* this is IMPORTANT! */
+}
